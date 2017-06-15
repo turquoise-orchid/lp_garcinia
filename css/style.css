@@ -17,7 +17,7 @@ html, body {
 
 body {
 	font-family: Roboto Condensed;
-	background-image: url(../img/background.png);
+	background-image: url("../img/background.jpg");
 	background-repeat: repeat;
 }
 
@@ -244,6 +244,14 @@ a {
 .trust {
 	float: right;
 	margin: 5px;
+}
+
+.copyright {
+	color: #70797c;
+	font-size: 12px;
+	font-weight: 300;
+	padding-top: 15px; 
+	padding-bottom: 55px;
 }
 
 .wrap {
