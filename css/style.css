@@ -120,17 +120,30 @@ body {
 	width: 325px;
 	height: 607px;
 	background: url("../img/main.png") no-repeat;
-	display: inline-block;
 	cursor: pointer;
-	float: left;
+	
 }
-
+.amazon {
+	height: 72px;
+	width: 311px;
+	margin-left: 7px;
+}
+.organize {
+	display: inline-block;
+	width: 320px;
+	height: 706px;
+}
 .box2 {
-	background-position: 0 -607px ;/*x y*/
+	background-position: 0 -607px ;
 }
 
 .box2:hover {
 	background-position:  0 0;
+	margin-bottom: 15px;
+}
+
+.bx2 {
+	background: url("../img/2am.png");
 }
 
 .box6 {
@@ -139,7 +152,13 @@ body {
 
 .box6:hover {
 	background-position: -325px 0;
+	margin-bottom: 15px;
 }
+
+.bx6 {
+	background: url("../img/6am.png");
+}
+
 
 .box4 {
 	background-position: -650px -607px ;
@@ -147,6 +166,12 @@ body {
 
 .box4:hover {
 	background-position: -650px 0;
+	margin-bottom: 15px;
+
+}
+
+.bx4 {
+	background: url("../img/4am.png");
 }
 
 .green-popup {
@@ -158,8 +183,9 @@ body {
 	top: 5px;
 }
 
+
 .next-step {
-	padding-top: 42px;
+	padding-top: 27px;
 	padding-bottom: 48px;
 	float: right;
 }
