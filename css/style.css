@@ -30,7 +30,7 @@ body {
 .wrapper {
 	/*position: relative;*/
 	max-width: 984px;
-	min-width: 320px;
+	min-width: 975px;
 	margin-left: auto;
 	margin-right: auto; 
 }
@@ -78,12 +78,16 @@ body {
 	overflow: auto;
 	margin: 0, auto;
 	position: relative;
-	width: 100%;
+	
+
+	max-width: 984px;
+	min-width: 1043px;
+	margin-left: auto;
+	margin-right: auto; 
 
 }
 .logo {
-	max-width: 990px;
-	min-width: 320px;
+	
 	margin-left: auto;
 	margin-right: auto; 
 	padding-top: 22px;
@@ -226,6 +230,9 @@ font-weight: 400;
 	margin: 5px;
 }
 
-.modalInner {
-	display: none;
+.wrap {
+	background: url('../img/popup.png') no-repeat;
+	position: relative;
+	min-height: 100%;
+	z-index: 50; 
 }

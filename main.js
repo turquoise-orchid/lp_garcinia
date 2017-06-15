@@ -6,5 +6,9 @@ window.onbeforeunload = function () {
 };
 
 var showPopup = function() {
-	console.log('popup');
+	document.body.innerHTML = '<div class="wrap"><div class="popup"></div></div>';
+	//console.log('popup');
 };
+var closePopup = function() {
+	onclick();
+}
