@@ -4,11 +4,11 @@
 *,
 *:before,
 *:after {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html, body {
@@ -174,15 +174,16 @@ body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+
 .real {
 	text-align: center;
-color: #a21f28;
-font-size: 24px;
-font-weight: 700;
-font-style: italic;
-line-height: 24px;
-
+	color: #a21f28;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 24px;
 }
+
 h2 {
 	display: block;
 	margin-left: auto;
@@ -198,6 +199,7 @@ h2 {
 
 
 }
+
 .v1, .v2, .v3 {
 	display: inline-block;
 	float: left;
@@ -206,10 +208,12 @@ h2 {
 .v2, .v3 {
 	padding-left: 25px;
 }
+
 .footer-content {
 	margin-top: 35px;
     margin-bottom: 28px;
 }
+
 .footer_links {
 	float: right;
 	padding-left: 30px;	
@@ -236,7 +240,6 @@ a {
 	font-size: 18px;
 	font-weight: 400;
 }
-
 
 .trust {
 	float: right;
