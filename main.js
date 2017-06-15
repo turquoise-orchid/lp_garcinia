@@ -15,7 +15,7 @@ var showPopup = function() {
 	popupDiv.classList.remove('hidden');
 };
 
-area.onclick = function() {
+var hidePopup = function() {
 	var popupDiv;
 	var popupDivs = document.getElementsByClassName('wrap');
 	if (!popupDivs.length) {
