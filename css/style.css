@@ -18,7 +18,7 @@ html, body {
 body {
 	font-family: Roboto Condensed;
 	background-image: url("../img/background.jpg");
-	background-repeat: repeat;
+	background-repeat: repeat repeat;
 }
 
 /*.main {
@@ -48,8 +48,7 @@ body {
 	box-shadow: inset 0 -1px 9px rgba(0, 0, 0, 0.22);
 	background-color: #ba1f1f;
 
-	padding-top: 10px;
-	padding-bottom: 8px;
+	padding-top: 8px;
 	font-weight: 700;
 	font-style: bold;
 	color: #ffffff;
@@ -78,10 +77,8 @@ body {
 	overflow: auto;
 	margin: 0, auto;
 	position: relative;
-	padding-top: 22px;
-	padding-bottom: 2px;
+	padding-top: 18px;
 	
-
 	max-width: 984px;
 	min-width: 1111px;
 	margin-left: auto;
@@ -103,12 +100,11 @@ body {
 /*main*/
 .box-set {
 	overflow: auto;
-	padding-top: 25px;/*greenpopup*/
 	margin: 0 auto;
 	position: relative;
 	overflow-x: auto;
   	overflow-y: hidden;
-	/*border: 1px solid #88bca8;*/
+	padding-top: 15px;/*greenpopup*/
 }
 
 /*.box {
@@ -180,7 +176,7 @@ body {
 	z-index: 10;
 	position: absolute;
 	left: 480px;
-	top: 5px;
+	top: 0px;
 }
 
 
@@ -229,15 +225,22 @@ h2 {
 .v1, .v2, .v3 {
 	display: inline-block;
 	float: left;
+	/*padding: 8px 0;*/
+	background: #a4a4a4;
+	width: 303px;
+	height: 170px;
+	border: 0;
+	padding-top: 7px;
+
 }
 
 .v2, .v3 {
-	padding-left: 25px;
+	margin-left: 25px;
 }
 
 .footer-content {
-	margin-top: 35px;
-    margin-bottom: 28px;
+	margin-top: 28px;
+    margin-bottom: 25px;
 }
 
 .footer_links {
@@ -254,8 +257,8 @@ a {
 
 .footer-warning {
 	border-top: 1px solid  #516b8e;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	color: #70797c;
 	font-size: 14px;
 	font-weight: 300;
@@ -269,7 +272,7 @@ a {
 
 .trust {
 	float: right;
-	margin: 5px;
+	margin: 5px, 5px, 0, 5px;
 }
 
 .copyright {
@@ -277,7 +280,6 @@ a {
 	font-size: 12px;
 	font-weight: 300;
 	padding-top: 15px; 
-	padding-bottom: 55px;
 }
 
 .wrap {
@@ -295,8 +297,8 @@ a {
 	position: absolute;
 	min-height: 100%;
 	z-index: 100; 
-	right: 30%;/*надо поправить*/
-	top: 20%;/*надо поправить*/
+	right: 30%;
+	top: 20%;
 }
 
 .hidden {
