@@ -128,29 +128,42 @@ body {
 .box2 {
 	background-position: 0 -607px ;/*x y*/
 }
+
 .box2:hover {
 	background-position:  0 0;
-	
 }
+
 .box6 {
 	background-position: -325px -607px; 
 }
+
 .box6:hover {
 	background-position: -325px 0;
 }
+
 .box4 {
 	background-position: -650px -607px ;
 }
+
 .box4:hover {
 	background-position: -650px 0;
 }
 
-.next-step {
+.green-popup {
+	width: 339px;
+	height: 76px;
+	z-index: 10;
+	position: absolute;
+	left: 480px;
+	top: -15px;
+}
 
+.next-step {
 	padding-top: 42px;
 	padding-bottom: 48px;
 	float: right;
 }
+
 .videos {
 	border-top: 1px solid #45bca8;
 	color: #a21f28;
