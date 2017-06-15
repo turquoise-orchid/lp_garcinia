@@ -17,7 +17,7 @@ html, body {
 
 body {
 	font-family: Roboto Condensed;
-	background-image: url(../img/background-3-layers.png);
+	background-image: url(../img/background.png);
 	background-repeat: repeat;
 }
 
@@ -232,6 +232,7 @@ font-weight: 400;
     background: rgba(0, 0, 0, 0.3);
     left: 0;
     top: 0;
+    
 }
 .popup {
 	position: absolute;
@@ -239,5 +240,9 @@ font-weight: 400;
 	z-index: 50; 
 	right: 30%;/*надо поправить*/
 	top: 20%;/*надо поправить*/
+	
 
+}
+.hidden {
+	display: none;
 }

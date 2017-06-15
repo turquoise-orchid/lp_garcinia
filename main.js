@@ -6,5 +6,21 @@ window.onbeforeunload = function () {
 };
 
 var showPopup = function() {
-	console.log('popup');
+	var popupDiv;
+	var popupDivs = document.getElementsByClassName('wrap');
+	if (!popupDivs.length) {
+    return;
+	}
+	popupDiv = popupDivs[0];
+	popupDiv.classList.remove('hidden');
+};
+
+area.onclick = function() {
+	var popupDiv;
+	var popupDivs = document.getElementsByClassName('wrap');
+	if (!popupDivs.length) {
+    return;
+	}
+	popupDiv = popupDivs[0];
+	popupDiv.classList.add('hidden');
 };
