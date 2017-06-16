@@ -222,21 +222,26 @@ h2 {
 
 
 }
-
+iframe {
+	/*width: 303px;
+	height: 170px;*/
+	width: 303px;
+	height: 174px;
+	border: 0;
+}
 .v1, .v2, .v3 {
 	display: inline-block;
 	float: left;
 	/*padding: 8px 0;*/
-	background: #a4a4a4;
-	width: 303px;
-	height: 170px;
+	/*background: #a4a4a4;*/
+	height: 178px;
 	border: 0;
-	padding-top: 7px;
+	/*padding-top: 7px;*//*рамка вокруг фрейма*/
 
 }
 
 .v2, .v3 {
-	margin-left: 25px;
+	margin-left: 33px;
 }
 
 .footer-content {
