@@ -43,7 +43,8 @@ body {
 }*/
 
 .offer {
-	min-width: 560px;
+	max-width: 100%;
+	min-width: 1124px;
 	height: 32px;
 	box-shadow: inset 0 -1px 9px rgba(0, 0, 0, 0.22);
 	background-color: #ba1f1f;
