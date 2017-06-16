@@ -17,8 +17,9 @@ html, body {
 
 body {
 	font-family: Roboto Condensed;
-	background: url("../img/background.jpg");
+	background: url("../img/background.jpg") 100% 100% ;
 	background-repeat: repeat repeat;
+	background-size: cover;
 }
 
 .wrapper {
