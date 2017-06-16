@@ -90,29 +90,20 @@ body {
 	margin-left: auto;
 	margin-right: auto; 
 	height: 71px;
+	min-width: 975px;
 	background: url("../img/header-logo.png") no-repeat center center;
 }
-/*.efficiently {
-	position: absolute;
-	bottom: 20px;
-	right: -70px;
-}
-*/
-/*main*/
+
 .box-set {
 	overflow: auto;
 	margin: 0 auto;
 	position: relative;
 	overflow-x: auto;
   	overflow-y: hidden;
-	padding-top: 15px;/*greenpopup*/
+	padding-top: 15px;
 }
 
-/*.box {
-	background-color: grey;
-	padding-top: 32px;
-	
-}*/
+
 .item {
 	width: 325px;
 	height: 607px;
@@ -223,10 +214,8 @@ h2 {
 
 }
 iframe {
-	/*width: 303px;
-	height: 170px;*/
 	width: 303px;
-	height: 174px;
+	height: 170px;
 	border: 0;
 }
 .v1, .v2, .v3 {
@@ -234,10 +223,8 @@ iframe {
 	float: left;
 	/*padding: 8px 0;*/
 	/*background: #a4a4a4;*/
-	height: 178px;
+	height: 174px;
 	border: 0;
-	/*padding-top: 7px;*//*рамка вокруг фрейма*/
-
 }
 
 .v2, .v3 {
@@ -245,7 +232,7 @@ iframe {
 }
 
 .footer-content {
-	margin-top: 28px;
+	margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -263,8 +250,8 @@ a {
 
 .footer-warning {
 	border-top: 1px solid  #516b8e;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	color: #70797c;
 	font-size: 14px;
 	font-weight: 300;
