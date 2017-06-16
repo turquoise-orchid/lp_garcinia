@@ -17,15 +17,9 @@ html, body {
 
 body {
 	font-family: Roboto Condensed;
-	background-image: url("../img/background.jpg");
+	background: url("../img/background.jpg");
 	background-repeat: repeat repeat;
 }
-
-/*.main {
-	position: relative;
-	overflow: hidden;
-	min-height: 100%;
- }*/
 
 .wrapper {
 	/*position: relative;*/
@@ -58,11 +52,13 @@ body {
 	line-height: 18px;
 
 }
+
 .offer_discount {
 	text-transform: uppercase;
 	color: #fde950;
 	
 }
+
 .offer_delivery {
 	color: #fde950;
 	font-style: italic;
@@ -73,7 +69,7 @@ body {
 	padding-left: 2px;
     padding-right: 2px;
 }
-/*logo and h1*/
+
 .header-top {
 	overflow: auto;
 	margin: 0, auto;
