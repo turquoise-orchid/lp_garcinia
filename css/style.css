@@ -133,11 +133,14 @@ body {
 	background-position: -325px 0;
 	margin-bottom: 15px;
 }
+/*green popup hidden when not chosen*/
+/*.box6:hover .green-popup { 
+	visibility: visible;
+}*/
 
 .bx6 {
 	background: url("../img/6am.png");
 }
-
 
 .box4 {
 	background-position: -650px -607px ;
@@ -159,6 +162,8 @@ body {
 	position: absolute;
 	left: 480px;
 	top: 0px;
+	/*green popup hidden when not chosen*/
+	/*visibility: hidden;*/
 }
 
 .next-step {
@@ -275,11 +280,20 @@ a {
 }
 
 .popup {
-	position: absolute;
-	min-height: 100%;
-	z-index: 100; 
-	right: 30%;
-	top: 20%;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+}
+
+#free {
+	display:block; 
 }
 
 .hidden {
