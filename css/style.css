@@ -64,24 +64,40 @@ body {
 
 .header-top {
 	overflow: auto;
-	margin: 0, auto;
 	position: relative;
 	padding-top: 18px;
 	
-	/*max-width: 984px;*/
-	min-width: 975px;
-	margin-left: auto;
-	margin-right: auto; */
-}
-
-.logo {
+	min-width: 1111px;
 	margin-left: auto;
 	margin-right: auto; 
-	height: 71px;
-	min-width: 975px;
-	background: url("../img/header-logo.png") no-repeat center center;
 }
 
+
+.logo {
+	float:left;
+	z-index: 1;
+}
+
+.burnt {
+	z-index: 1;
+	float:right;
+	position: relative;
+	padding-top: 5px;
+}
+
+.yellow {
+	height: 50px;
+	width: 500px;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+    background: linear-gradient(to left, yellow, transparent);
+    position: absolute;
+    right: 100px;
+    bottom: 25px;
+    z-index: -5;
+
+}
 .box-set {
 	overflow: auto;
 	margin: 0 auto;
